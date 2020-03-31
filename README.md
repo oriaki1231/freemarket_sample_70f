@@ -1,27 +1,53 @@
-# README
+# Title
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### フリマ
 
-Things you may want to cover:
+# Overview
 
-* Ruby version
 
-* System dependencies
+# Production environment
 
-* Configuration
+フリマ  
+URL : http://18.180.99.238/    
 
-* Database creation
+テスト用アカウント等  
+- 購入者用  
+メールアドレス: gonza@gmail.com  
+パスワード: 22222222  
+- 購入用カード情報  
+番号：4242424242424242  
+期限：2024/02  
+セキュリティコード：123  
+- 出品者用  
+メールアドレス名: doda@gmail.com  
+パスワード: 11111111  
+ 
+# Production background
+ 
 
-* Database initialization
+# Ingenuity
 
-* How to run the test suite
+# Environment & Technology used
+ 
+* ruby 2.5.1  
+* Rails 5.2.4.1  
+  
 
-* Services (job queues, cache servers, search engines, etc.)
+# DEMO
 
-* Deployment instructions
+- 出品者用テストアカウントでログイン→トップページから出品ボタン押下→商品情報入力→商品出品
+- 購入者用テストアカウントでログイン→トップページのピックアップカテゴリーから
+- 商品選択→商品購入
+- 確認後、ログアウト処理をお願いします。
 
-* ...
+# To be implemented
+ 
+- 検索機能
+- お気に入り機能
+- パンくず導入
+- コメント機能
+
+# DB
 
 ## usersテーブル
 |Column|Type|Options|
